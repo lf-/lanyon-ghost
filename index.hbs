@@ -8,8 +8,9 @@
               <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>. By {{author}}.
           </section>
       </header>
-      <section class="post-excerpt">
-          <p>{{excerpt words="30"}}... <a class="read-more" href="{{url}}">&raquo;</a></p>
+      <section class="post-content">
+          <p>{{content}}</p>
+          Tags: {{tags}}
       </section>
   </article>
   {{/foreach}}
