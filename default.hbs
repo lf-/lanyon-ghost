@@ -16,7 +16,35 @@
     <link rel="stylesheet" href="{{asset "css/poole.css"}}">
     <link rel="stylesheet" href="{{asset "css/syntax.css"}}">
     <link rel="stylesheet" href="{{asset "css/lanyon.css"}}">
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <style>
+    @font-face {
+      font-family: 'Charter';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Charter'), url('{{asset "font/charter-regular.woff"}}');
+    }
+
+    @font-face {
+      font-family: 'Charter';
+      font-style: normal;
+      font-weight: bold;
+      src: local('Charter Bold'), local('Charter-Bold'), url('{{asset "font/charter-bold.woff"}}');
+    }
+
+    @font-face {
+      font-family: 'Charter';
+      font-style: italic;
+      font-weight: normal;
+      src: local('Charter Italic'), local('Charter-Italic'), url('{{asset "font/charter-italic.woff"}}');
+    }
+
+    @font-face {
+      font-family: 'Charter';
+      font-style: italic;
+      font-weight: bold;
+      src: local('Charter Bold Italic'), local('Charter-BoldItalic'), url('{{asset "font/charter-bold-italic.woff"}}');
+    }
+    </style>
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset "apple-touch-icon-precomposed.png"}}">

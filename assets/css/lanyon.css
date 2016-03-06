@@ -27,6 +27,8 @@
  * Themes
  */
 
+/* Get fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro|Fira+Sans&subset=latin,latin-ext);
 
 /*
  * Global resets
@@ -41,11 +43,11 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Charter", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -148,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -372,7 +374,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -722,7 +724,7 @@ a.pagination-item:hover {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Noto Serif", serif;
+    font-family: "Charter", serif;
     font-size: 1.7rem;
 }
 .author-meta span {
