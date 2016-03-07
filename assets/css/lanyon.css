@@ -585,12 +585,19 @@ a.pagination-item:hover {
     border-top: #EBF2F6 1px solid;
 }
 
-.post-footer h4 {
+.author-header {
+    position: relative;
+    margin: 0 0 3rem 0;
+    padding: 0 0 2rem 0;
+    border-bottom: #EBF2F6 1px solid;
+}
+
+.post-footer h4, .author-header h4 {
     font-size: 1.4rem;
     margin: 0;
 }
 
-.post-footer p {
+.post-footer p, .author-header p {
     margin: 0.4rem 0 0.8rem 0;
     font-size: 1rem;
     line-height: 1em;
@@ -615,16 +622,16 @@ a.pagination-item:hover {
 }
 
 /* Create some space to the right for the share links */
-.post-footer .author {
+.post-footer .author, .author-header .author {
     margin-right: 180px;
 }
 
-.post-footer h4 a {
+.post-footer h4 a, .author-header h4 a {
     color: #2e2e2e;
     text-decoration: none;
 }
 
-.post-footer h4 a:hover {
+.post-footer h4 a:hover, .author-header h4 a:hover {
     text-decoration: underline;
 }
 
