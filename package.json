@@ -1,4 +1,11 @@
 {
-  "name": "Lanyon",
-  "version": "1.1.0"
+  "name": "lanyon",
+  "version": "1.1.0",
+  "author": {
+    "name": "lf",
+    "email": "devnull@lfcode.ca"
+  },
+  "config": {
+    "posts_per_page": 10
+  }
 }
